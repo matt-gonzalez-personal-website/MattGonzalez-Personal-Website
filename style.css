@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    font-size: 3rem;
+    padding-left: 0.5em;
+    padding-right: 1em;
+}
+
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header .links {
+    float: right;
+}
+
+header .name {
+    float: left;
+    text-transform: capitalize;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a.selected {
+    text-decoration: underline;
+}
+
+
+main {
+    display: block;
+    background-color: blue;
+    color: white;
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+}
