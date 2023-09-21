@@ -1,3 +1,6 @@
+/* home page style */
+
+
 * {
     box-sizing: border-box;
 }
@@ -55,6 +58,37 @@ body {
 html {
     background: navy;
 }
+
+/* home page style */
+
+
+
+/* portfolio page style */
+
+.project {
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 50px 20px -2px #ccc;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+
+/* portfolio page style */
+
+
+/* about page style */
+
+section > img {
+    height: 128px;
+    
+}
+
+
+section {
+    border-top: 1px solid #bbb;
+}
+
+/* about page style */
 
 footer {
     box-sizing: border-box;
