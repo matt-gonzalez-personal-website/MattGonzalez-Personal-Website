@@ -127,3 +127,20 @@ footer {
   header, footer {
     background: #f8f8f8;
   }
+
+  /*form page*/
+
+ form {
+    padding: 100px 24px 350px !important;
+    display: grid;
+    border: solid;
+    box-sizing: 100px 100px 380px;
+    z-index: auto;
+ }
+
+ input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
